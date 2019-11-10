@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: sba-gateway
-          image: dongf9527/sba-gateway:v3
+          image: dongf9527/sba-gateway:v4
           ports:
             - name: http-port
               containerPort: 9000
